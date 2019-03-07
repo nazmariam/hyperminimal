@@ -118,15 +118,17 @@ html {
 
   box-shadow: 0 -4px 5px 1px rgba(0,0,0,0.2);
   }
-
+.main-text{
+  margin: 0 auto;
+  text-align: center;
+}
 .about-goods h2 {
   font-size: 30px;
-  color: #000;
+  color: #da242a;
   display: block;
   font-family: 'Montserrat', cursive;
-  margin: 20px;
+  margin: 20px auto;
   font-weight: 900;
-  text-align: left;
 }
 #main-slide{
   margin: 40px auto;
@@ -150,6 +152,10 @@ html {
 }
 .old-price{
   text-decoration: line-through;
+}
+.slide-description{
+  margin: 0 auto;
+  text-align: center;
 }
 .slide-description strong{
   color: #57be33;
